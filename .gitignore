@@ -5,3 +5,5 @@
 runs/
 data/
 notebooks/
+tensorboard_dir2/
+tensorboard_dir/
