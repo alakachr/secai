@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.jpg
 *.png
 *.pickle
@@ -7,3 +8,5 @@ data/
 notebooks/
 tensorboard_dir2/
 tensorboard_dir/
+=======
+>>>>>>> parent of 3268f2f... 2d commmit
