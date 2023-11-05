@@ -1,0 +1,26 @@
+EXPERIMENT: 7
+MODEL:
+  NB_CLASSES: 2
+  BACKBONE: "resnet-50"
+TRAINING:
+  NUM_EPOCHS: 150
+  SAVE_FREQUENCY: 5
+
+  LEARNING_RATE:  0.001
+  EVALUATION_FREQUENCY: 1
+  PRINT_FREQ: 10
+  PATH_MODEL : /data/ubuntu/secai/src/sec_ai/saved_models
+  ENABLE_TENSORBOARD : TRUE
+  TENSORBOARD_DIR: /data/ubuntu/secai/src/sec_ai/tensorboard_dir2
+  LOSS_WEIGHTS: [0.5,0.5]
+
+BATCH_SIZE: 4
+NUM_THREADS : 2
+
+
+METRICS: ["accuracy", "f1", "precision", "recall"]
+
+
+
+
+
