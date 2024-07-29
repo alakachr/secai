@@ -1,11 +1,11 @@
 from ultralytics import YOLO
 
 
-model = YOLO("yolov8m.pt")  # load a pretrained model (recommended for training)
+model = YOLO("yolov8m.pt")  # Download pre triained checkpint from Ultralytics
 
 # Train the model with 2 GPUs
 results = model.train(
-    data="/data/ubuntu/secai/data/Prestamo_no_consensuado.v5i.yolov8/data.yaml",
+    data="/data/ubuntu/secai/src/sec_ai/detection/data.yaml",
     epochs=100,
     imgsz=640,
 )
